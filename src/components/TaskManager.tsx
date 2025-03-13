@@ -48,7 +48,7 @@ export default function TaskManager() {
 
   return (
     <div className="min-h-screen flex flex-col items-center bg-gray-50 p-6">
-      <div className="w-full max-w-4xl bg-white p-6 rounded-lg shadow-md">
+      <div className="w-full max-w-4xl bg-white p-6 rounded-lg">
         <TaskForm addTask={addTask} />
         <TaskList tasks={tasks} completeTask={completeTask} deleteTask={deleteTask} />
       </div>
